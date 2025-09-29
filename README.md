@@ -1,20 +1,23 @@
 Calculadora de Propinas
-Este es un proyecto simple de una calculadora de propinas desarrollada con HTML, CSS y JavaScript.
 
-Estructura de archivos:
-index.html: Este archivo contiene la estructura HTML de la aplicación, incluyendo los campos para ingresar el monto total de la cuenta, el porcentaje de propina y el botón para calcular la propina.
+Una calculadora sencilla desarrollada con HTML, CSS y JavaScript. Este es uno de mis primeros ejercicios mientras aprendía desarrollo web, ideal para practicar la manipulación del DOM y cálculos básicos con JavaScript.
 
-styles.css: Aquí se encuentran los estilos CSS que dan formato a la calculadora. Define la apariencia visual de los elementos HTML para una presentación más atractiva.
+Estructura de archivos
 
-script.js: Este archivo contiene el código JavaScript necesario para realizar el cálculo de la propina. La función calculateTip toma los valores ingresados, realiza el cálculo y muestra el resultado en la página.
+index.html: Contiene la estructura de la calculadora con los campos de ingreso del monto y porcentaje de propina, y el botón de cálculo.
 
-Instrucciones de uso:
-Abre el archivo index.html en tu navegador web.
+styles.css: Estilos visuales de la aplicación para mejorar su presentación y experiencia de usuario.
 
-Ingresa el monto total de la cuenta en el primer campo (Total de la cuenta).
+script.js: Lógica de la calculadora. La función calculateTip toma los valores ingresados, calcula la propina y muestra el total a pagar.
 
-Ingresa el porcentaje de propina que deseas dejar en el segundo campo (Porcentaje de propina).
+Cómo usarla
 
-Haz clic en el botón Calcular Propina.
+Abre index.html en tu navegador.
 
-El resultado, que es el total a pagar (incluyendo la propina), se mostrará debajo del botón.
+Ingresa el monto total de la cuenta en el campo Total de la cuenta.
+
+Ingresa el porcentaje de propina deseado en Porcentaje de propina.
+
+Haz clic en Calcular Propina.
+
+El resultado aparecerá debajo del botón, mostrando el total a pagar incluyendo la propina.
